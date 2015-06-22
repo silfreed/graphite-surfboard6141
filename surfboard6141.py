@@ -48,7 +48,7 @@ while True:
         continue
 
       for channelid, value in zip(signaldata[direction]['channel_id'], values):
-        print "PUTVAL %s/surfboard6141/%s/%s-%s interval=%s %s:%s" % (hostname, direction, key, channelid, interval, int(time.time()), value)
+        print "PUTVAL %s/surfboard6141/%s-%s_%s interval=%s %s:%s" % (hostname, key, direction, channelid, interval, int(time.time()), value)
   sys.stdout.flush()
 
   time.sleep(interval)
