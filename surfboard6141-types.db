@@ -1,0 +1,6 @@
+CodewordsCorrectable    value:GAUGE:0:U
+CodewordsUncorrectable  value:GAUGE:0:U
+CodewordsUnerrored      value:GAUGE:0:U
+SNR_dB                  value:GAUGE:0:U
+frequency_Hz            value:GAUGE:0:U
+power_level_dBmV        value:GAUGE:0:U
